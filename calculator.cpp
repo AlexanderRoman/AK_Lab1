@@ -18,3 +18,13 @@ int Calculator::Mul (double a, double b)
 {
     return a * b + 0.5;
 }
+
+int Calculator::Mul2 (double a, double b)
+{
+    int i=1;
+    int a1=a;
+    while(i<b){
+        a+=a1;
+        i++;
+    }
+}
